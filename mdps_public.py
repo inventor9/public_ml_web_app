@@ -46,22 +46,22 @@ if (selected == 'Diabetes Prediction'):
         Pregnancies = st.text_input('Number of Pregnancies (0 for Male)')
         
     with col2:
-        Glucose = st.text_input('Glucose Level')
+        Glucose = st.text_input('Glucose Level (70-200 mg/dl)')
     
     with col3:
-        BloodPressure = st.text_input('Blood Pressure value')
+        BloodPressure = st.text_input('Blood Pressure value (60-120 mm/hg)')
     
     with col1:
-        SkinThickness = st.text_input('Skin Thickness value')
+        SkinThickness = st.text_input('Skin Thickness value (0-35 um)')
     
     with col2:
         Insulin = st.text_input('Insulin Level')
     
     with col3:
-        BMI = st.text_input('BMI value')
+        BMI = st.text_input('BMI value (18.5 - 40)')
     
     with col1:
-        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
+        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value(0.08-2.42)')
     
     with col2:
         Age = st.text_input('Age of the Person')
