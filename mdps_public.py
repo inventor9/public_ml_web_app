@@ -97,7 +97,7 @@ if (selected == 'Heart Disease Prediction'):
         age = st.text_input('Age')
         
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.text_input('Sex(0 - Female , 1 - Male)')
         
     with col3:
         cp = st.text_input('Chest Pain types (0-3)')
